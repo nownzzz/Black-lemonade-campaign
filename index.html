@@ -1,115 +1,123 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My lemonAID Campaign</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>My lemonAID Campaign</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f5f7fb;color:#222}
+.container{max-width:1000px;margin:auto;padding:20px}
+.hero{background:linear-gradient(135deg,#0b2d4d,#2f7d32);color:#fff;padding:40px 0}
+.nav{display:flex;justify-content:space-between;align-items:center}
+.nav a{color:#fff;text-decoration:none;margin-left:16px}
+.logo{font-weight:bold;font-size:24px}.logo span{color:#ffd447}
+.hero-content{text-align:center;padding:40px 0}
+.button{display:inline-block;background:#ffd447;color:#0b2d4d;padding:12px 22px;border-radius:30px;text-decoration:none;font-weight:bold;margin:6px}
+.secondary{background:#fff}
+.card{background:#fff;border-radius:16px;padding:24px;margin:24px 0;box-shadow:0 4px 12px rgba(0,0,0,.08)}
+.highlight-card{text-align:center;border:2px solid #ffd447}
+.donation-options{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin:20px 0}
+.donation-card{background:#f1f1f1;padding:18px;border-radius:14px;min-width:110px;text-align:center}
+.featured{background:#0b2d4d;color:#fff;transform:scale(1.05)}
+.video-wrapper{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:16px}
+.video-wrapper video{position:absolute;left:0;top:0;width:100%;height:100%}
+footer{background:#0b2d4d;color:#fff;text-align:center;padding:30px 0;margin-top:30px}
+</style></head>
 <body>
-    <header class="hero">
-        <nav class="nav container">
-            <a class="logo" href="#">lemon<span>AID</span></a>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#mission">Mission</a>
-                <a href="#donate">Donate</a>
-                <a href="#video">Video</a>
-            </div>
-        </nav>
-
-        <div class="container hero-content">
-            <p class="eyebrow">Fresh lemonade. Real community impact.</p>
-            <h1>lemonAID Campaign</h1>
-            <p class="hero-text">
+<header class="hero">
+<nav class="nav container">
+<a class="logo" href="#">lemon<span>AID</span></a>
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#mission">Mission</a>
+<a href="#donate">Donate</a>
+<a href="#video">Video</a>
+</div>
+</nav>
+<div class="container hero-content">
+<p class="eyebrow">Fresh lemonade. Real community impact.</p>
+<h1>lemonAID Campaign</h1>
+<p class="hero-text">
                 Support a healthier community with fresh lemonade, service projects,
                 and youth-led fundraising that helps families in need.
             </p>
-            <div class="hero-buttons">
-                <a class="button" href="#donate">Support the Initiative</a>
-                <a class="button secondary" href="#about">Learn More</a>
-            </div>
-        </div>
-    </header>
-
-    <main class="container">
-        <section id="about" class="card">
-            <h2>About Our Campaign</h2>
-            <p>
+<div class="hero-buttons">
+<a class="button" href="#donate">Support the Initiative</a>
+<a class="button secondary" href="#about">Learn More</a>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="card" id="about">
+<h2>About Our Campaign</h2>
+<p>
                 We are raising funds for local charities through a neighborhood lemonade stand.
                 Every purchase helps provide clean water and community support for families in need.
             </p>
-        </section>
-
-        <section id="mission" class="card">
-            <h2>Our Mission</h2>
-            <ul>
-                <li>Fundraise for community projects</li>
-                <li>Promote healthy habits and kindness</li>
-                <li>Engage volunteers of all ages</li>
-            </ul>
-        </section>
-
-        <section id="join" class="card">
-            <h2>How to Join</h2>
-            <p>
+</section>
+<section class="card" id="mission">
+<h2>Our Mission</h2>
+<ul>
+<li>Fundraise for community projects</li>
+<li>Promote healthy habits and kindness</li>
+<li>Engage volunteers of all ages</li>
+</ul>
+</section>
+<section class="card" id="join">
+<h2>How to Join</h2>
+<p>
                 Bring a smile, donate a cup of lemonade, or volunteer at our next event.
                 Together, we can make a big impact.
             </p>
-            <a class="button secondary dark" href="#contact">Contact Us</a>
-        </section>
-
-        <section id="donate" class="card highlight-card">
-            <p class="eyebrow">Choice Architecture</p>
-            <h2>Support Our 60/40 Initiative</h2>
-            <p>
+<a class="button secondary dark" href="#contact">Contact Us</a>
+</section>
+<section class="card highlight-card" id="donate">
+<p class="eyebrow">Choice Architecture</p>
+<h2>Support Our 60/40 Initiative</h2>
+<p>
                 Your support helps fund community service projects, youth leadership,
                 and healthier choices through the lemonAID campaign.
             </p>
-
-            <div class="donation-options">
-                <div class="donation-card">
-                    <strong>$100</strong>
-                    <span>Big Impact</span>
-                </div>
-                <div class="donation-card featured">
-                    <strong>$50</strong>
-                    <span>Recommended</span>
-                </div>
-                <div class="donation-card">
-                    <strong>$25</strong>
-                    <span>Starter Gift</span>
-                </div>
-            </div>
-
-            <a href="https://www.blacklemonade.org/memphis" class="button donation-button" target="_blank" rel="noopener noreferrer">
+<div class="donation-options">
+<div class="donation-card">
+<strong>$100</strong>
+<span>Big Impact</span>
+</div>
+<div class="donation-card featured">
+<strong>$50</strong>
+<span>Recommended</span>
+</div>
+<div class="donation-card">
+<strong>$25</strong>
+<span>Starter Gift</span>
+</div>
+</div>
+<a class="button donation-button" href="https://www.blacklemonade.org/memphis" rel="noopener noreferrer" target="_blank">
                 Donate Now
             </a>
-        </section>
-
-        <section id="video" class="card video-section">
-            <h2>Meet Our Project Initiative</h2>
-            <p>
+</section>
+<section class="card video-section" id="video">
+<h2>Meet Our Project Initiative</h2>
+<p>
                 Watch our advocacy video to learn why lemonAID matters and how small actions
                 can create real change.
             </p>
-
-            <div class="video-wrapper">
-                <video controls poster="thumbnail.png" class="campaign-video">
-                    <source src="lemonaid_advocacy_video.mp4" type="video/mp4">
+<div class="video-wrapper">
+<video class="campaign-video" controls="" poster="thumbnail.png">
+<source src="lemonaid_advocacy_video.mp4" type="video/quicktime"/>
                     Your browser does not support the video tag.
                 </video>
-            </div>
-        </section>
-    </main>
-
-    <footer id="contact">
-        <div class="container footer-content">
-            <h2>Ready to Help?</h2>
-            <p>Volunteer, donate, or share the campaign with someone who wants to support the community.</p>
-            <a href="https://www.blacklemonade.org/memphis" class="button" target="_blank" rel="noopener noreferrer">Visit Checkout Page</a>
-            <p class="copyright">© 2026 lemonAID Campaign. All rights reserved.</p>
-        </div>
-    </footer>
+</div>
+</section>
+</main>
+<footer id="contact">
+<div class="container footer-content">
+<h2>Ready to Help?</h2>
+<p>Volunteer, donate, or share the campaign with someone who wants to support the community.</p>
+<a class="button" href="https://www.blacklemonade.org/memphis" rel="noopener noreferrer" target="_blank">Visit Checkout Page</a>
+<p class="copyright">© 2026 lemonAID Campaign. All rights reserved.</p>
+</div>
+</footer>
 </body>
 </html>
