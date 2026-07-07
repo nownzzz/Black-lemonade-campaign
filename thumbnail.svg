@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0d0d0d"/>
+  <rect x="120" y="140" width="1040" height="440" rx="40" fill="#111111" stroke="#ffd500" stroke-width="8"/>
+  <circle cx="640" cy="360" r="120" fill="#ffd500" opacity="0.9"/>
+  <path d="M604 292l112 68-112 68z" fill="#0d0d0d"/>
+  <text x="640" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" fill="#ffd500">lemonAID Campaign</text>
+</svg>
