@@ -240,8 +240,7 @@ ul {
   border: 2px solid #ffd500;
 }
 
-.about-grid,
-.story-grid {
+.about-grid {
   display: grid;
   grid-template-columns: 1.3fr 0.9fr;
   gap: 24px;
@@ -249,11 +248,17 @@ ul {
 }
 
 .info-panel,
-.story-panel {
+.story-panel,
+.spotlight-card {
   background: #1a1a1a;
   border: 2px solid rgba(255, 213, 0, 0.2);
   border-radius: 20px;
   padding: 24px;
+}
+
+.spotlight-card {
+  border-color: #ffd500;
+  background: linear-gradient(135deg, rgba(255, 213, 0, 0.16), rgba(17, 17, 17, 0.98));
 }
 
 .section-subtitle {
@@ -272,6 +277,10 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
+}
+
+.project-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .skill-chip,
@@ -383,7 +392,6 @@ footer {
 
 @media (max-width: 900px) {
   .about-grid,
-  .story-grid,
   .skill-grid,
   .project-grid,
   .gallery-grid,
