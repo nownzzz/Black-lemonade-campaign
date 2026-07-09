@@ -110,6 +110,29 @@ h1 {
   flex-wrap: wrap;
 }
 
+/* Headshot styling for About Me */
+.headshot-image {
+  width: 180px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .headshot-image {
+    width: 140px;
+  }
+}
+
+@media (max-width: 500px) {
+  .headshot-image {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
 .button {
   display: inline-block;
   background: #ffd500;
